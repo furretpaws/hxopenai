@@ -1,0 +1,10 @@
+{
+    "name": "hxopenai",
+    "url" : "https://github.com/FurretDev/hxopenai/",
+    "license": "MIT",
+    "tags": ["OpenAI", "AI", "gpt-3", "ChatGPT"],
+    "description": "OpenAI library",
+    "version": "0.0.1",
+    "releasenote": "Initial Release",
+    "contributors": ["Furret"]
+  }
