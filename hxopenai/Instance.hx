@@ -53,7 +53,14 @@ class Instance {
 		    r.onError = function(error)
 		    {
 		    	trace("[hxopenai] An error has occurred: " + error);
-                json = r.responseData;
+                if (r.responseData == null || r.responseData == "" || r.responseData == " ")
+                {
+                    json = error;
+                }
+                else
+                {
+                    json = r.responseData;
+                }
 		    }
         
 		    r.request(true);

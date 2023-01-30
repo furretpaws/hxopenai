@@ -3,7 +3,7 @@
     "url" : "https://github.com/FurretDev/hxopenai/",
     "license": "MIT",
     "tags": ["OpenAI", "AI", "gpt-3", "ChatGPT"],
-    "description": "OpenAI library",
+    "description": "OpenAI library for Haxe. (It is still in development)",
     "version": "0.0.1",
     "releasenote": "Initial Release",
     "contributors": ["Furret"]
