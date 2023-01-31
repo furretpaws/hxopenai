@@ -31,7 +31,7 @@ class Instance {
             var _data:String;
             var r = new haxe.Http(url + "completions");
             
-            r.addHeader("User-Agent", "hxopenai (https://github.com/FurretDev/hxdiscord)");
+            r.addHeader("User-Agent", "hxopenai (https://github.com/FurretDev/hxopenai)");
             r.addHeader("Content-Type", "application/json");
             r.addHeader("Authorization", "Bearer " + openai_token);
             if (openai_org != null)
